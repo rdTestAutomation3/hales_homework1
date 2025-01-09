@@ -35,7 +35,8 @@
         "age": 34,
         "gender": "Female",
         "phone": "05351111111",
-        "mail": "muge.bilir@test.com"
+        "mail": "muge.bilir@test.com",
+        "nationality": "TC"
       }
     ]
   }
