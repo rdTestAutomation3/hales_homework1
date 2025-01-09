@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sample>
+    <employees>
+        <!--Personel listesi oluşturuldu.-->
+        <employee id="1">
+            <name>Ali</name>
+            <surname>Yılmaz</surname>
+            <age>29</age>
+            <gender>Male</gender>
+            <Phone>05321111111</Phone>
+            <Mail>ali.yilmaz@test.com</Mail>
+        </employee>
+        <employee id="2">
+            <name>Ahmet</name>
+            <surname>Çelik</surname>
+            <age>30</age>
+            <gender>Male</gender>
+            <Phone>05331111111</Phone>
+            <Mail>ahmet.celik@test.com</Mail>
+        </employee>
+        <employee id="3">
+            <name>Ayşe</name>
+            <surname>Deniz</surname>
+            <age>32</age>
+            <gender>Female</gender>
+            <Phone>05341111111</Phone>
+            <Mail>ayse.deniz@test.com</Mail>
+        </employee>
+        <employee id="4">
+            <name>Müge</name>
+            <surname>Bilir</surname>
+            <age>33</age>
+            <gender>Female</gender>
+            <Phone>05351111111</Phone>
+            <Mail>muge.bilirr@test.com</Mail>
+        </employee>
+    </employees>
+</sample>
