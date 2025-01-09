@@ -1,0 +1,42 @@
+{
+  "sample": {
+    "employees": [
+      {
+        "id": 1,
+        "name": "Ali",
+        "surname": "Yılmaz",
+        "age": 29,
+        "gender": "Male",
+        "phone": "05321111111",
+        "mail": "ali.yilmaz@test.com"
+      },
+      {
+        "id": 2,
+        "name": "Ahmet",
+        "surname": "Çelik",
+        "age": 30,
+        "gender": "Male",
+        "phone": "05331111111",
+        "mail": "ahmet.celik@test.com"
+      },
+      {
+        "id": 3,
+        "name": "Ayşe",
+        "surname": "Deniz",
+        "age": 32,
+        "gender": "Female",
+        "phone": "05341111111",
+        "mail": "ayse.deniz@test.com"
+      },
+      {
+        "id": 4,
+        "name": "Müge",
+        "surname": "Bilir",
+        "age": 34,
+        "gender": "Female",
+        "phone": "05351111111",
+        "mail": "muge.bilir@test.com"
+      }
+    ]
+  }
+}
