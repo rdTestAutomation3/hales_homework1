@@ -7,11 +7,13 @@
         <option value="$PROJECT_DIR$/hales_homework4/pom.xml" />
         <option value="$PROJECT_DIR$/hales_homework1/pom.xml" />
         <option value="$PROJECT_DIR$/hales_homework2/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson5_Homework4/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/hales_homework4/hales_homework5/pom.xml" />
+        <option value="$PROJECT_DIR$/hales_homework4/pom.xml" />
       </set>
     </option>
   </component>
