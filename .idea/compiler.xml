@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hales_homework4" />
         <module name="hales_homework1" />
+        <module name="hales_homework5" />
       </profile>
     </annotationProcessing>
   </component>
