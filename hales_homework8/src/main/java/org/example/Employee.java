@@ -20,23 +20,42 @@ public class Employee {
         return name;
     }
 
+    public void setName(String name){
+        this.name=name;
+    }
+
     public String getLastName() {
         return lastName;
+    }
+
+    public void getLastName(String lastName){
+        this.lastName=lastName;
     }
 
     public LocalDate getBirthDate() {
         return birthDate;
     }
 
+    public void setBirthDate(LocalDate birthDate){
+        this.birthDate=birthDate;
+    }
+
     public Gender getGender() {
         return gender;
     }
 
-    public int calculateRetirement() {
+    public void setGender(Gender gender){
+        this.gender=gender;
+    }
 
+    public int calculateRetirement() {
         int retirementAge = gender.getRetirementAge();
         int age = Period.between(birthDate, LocalDate.now()).getYears();
         return retirementAge - age;
     }
 
+    public void printInfo(){
+        System.out.println("Ad: " + name + ", Soyad: " + lastName + ", Cinsiyet: " + gender +
+                ", Emekliliğe Kalan Yıl: " + calculateRetirement());
+    }
 }

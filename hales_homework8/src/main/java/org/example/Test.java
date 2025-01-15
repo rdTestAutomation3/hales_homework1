@@ -7,15 +7,16 @@ public class Test {
         //Kadın ve Erkek Personel Nesneleri
         Employee female = new Employee("Ayşe", "Çelik", LocalDate.of(1980, 4, 14), Gender.KADIN);
         Employee male = new Employee("Ahmet", "Usta", LocalDate.of(1979, 5, 20), Gender.ERKEK);
+        Employee lead = new Employee("Aysel", "Çelmez", LocalDate.of(1970, 1, 4), Gender.KADIN);
 
-        //Emeklilik hesaplama
-        System.out.println(female.getName() + " emekliliğine kalan yıl: " + female.calculateRetirement());
-        System.out.println(male.getName() + " emekliliğine kalan yıl: " + male.calculateRetirement());
+        Department hrDepartment = new Department("HR", lead);
 
-        //Departman oluşturma
-        Department department = new Department("HR", female);
-        department.addEmployee(female);
-        department.addTask("İşe alım");
-        department.markTaskDone("İşe alım");
+        hrDepartment.addEmployee(female);
+
+        hrDepartment.addTask("İşe alım");
+        hrDepartment.printTaskList();
+        hrDepartment.markTaskDone("İşe alım");
+
+        hrDepartment.printEmployeeList();
     }
 }

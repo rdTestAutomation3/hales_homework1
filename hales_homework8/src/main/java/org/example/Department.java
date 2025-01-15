@@ -17,6 +17,18 @@ public class Department {
         this.taskList = new ArrayList<>();
     }
 
+    public String getDepartmentName(){
+        return departmentName;
+    }
+
+    public void setDepartmentName(String departmentName) {
+        this.departmentName = departmentName;
+    }
+
+    public Employee getTeamLead(){
+        return teamLead;
+    }
+
     public void setTeamLead(Employee teamLead) {
         this.teamLead = teamLead;
     }
@@ -29,8 +41,11 @@ public class Department {
         employeeList.remove(employee);
     }
 
-    public void updateEmployee(int index, Employee newEmployee) {
-        employeeList.set(index, newEmployee);
+    public void printEmployeeList() {
+        System.out.println("Personel Listesi:");
+        for (Employee employee : employeeList) {
+            employee.printInfo();
+        }
     }
 
     public void addTask(String task) {
@@ -43,6 +58,13 @@ public class Department {
             System.out.println("Görev tamamlandı: " + task);
         } else {
             System.out.println("Görev bulunamadı: " + task);
+        }
+    }
+
+    public void printTaskList() {
+        System.out.println("Görev Listesi:");
+        for (String task : taskList) {
+            System.out.println("- " + task);
         }
     }
 }
