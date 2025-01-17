@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hales_homework6" />
+        <module name="hales_homework10" />
         <module name="hales_homework7" />
         <module name="hales_homework8" />
         <module name="hales_homework9" />
